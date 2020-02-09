@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WeatherMood</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/1de8a77d2a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<header>
+    <h1>WeatherMood <i class="fas fa-sun"></i></h1>
+</header>
+
+<body>
+    <div id="search-container">
+        <input class="search-city" type="text" placeholder="City Name or Zipcode" id="searchInput">
+        <button type="submit" class="search-city" id="searchBtn">Search</button>
+    </div>
+
+    <div id="weather-container">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                    <div class="output"></div>
+                <h5 id="cityName" class="card-title">Card title</h5>
+                <h5 id="temperature" class="card-title">Card title</h5>
+                <h5 id="weatherDescription" class="card-title">Card title</h5>
+                <div><img id="weatherIcon"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
+
+</html>
